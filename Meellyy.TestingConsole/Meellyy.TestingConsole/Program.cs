@@ -12,6 +12,7 @@ namespace Meellyy.TestingConsole
         {
             Console.WriteLine("Hello World, this is development branch");
             Console.WriteLine("Hello World, this is Rusya");
+            Console.WriteLine("New push");
             Console.ReadLine();
         }
     }
