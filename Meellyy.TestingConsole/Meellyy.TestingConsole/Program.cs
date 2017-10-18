@@ -11,8 +11,8 @@ namespace Meellyy.TestingConsole
         public static void Main(string[] args)
         {
             Console.WriteLine("Hello World");
-            //GLobWeather.GlobalWeatherSoapClient client = new GLobWeather.GlobalWeatherSoapClient();
-            //var cities = client.GetCitiesByCountry("Uzbekistan");
+            GLobWeather.GlobalWeatherSoapClient client = new GLobWeather.GlobalWeatherSoapClient();
+            var cities = client.GetCitiesByCountry("Uzbekistan");
             Console.ReadLine();
             Console.ReadLine();
         }
