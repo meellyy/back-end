@@ -20,6 +20,7 @@ namespace Meellyy.TestingConsole
             GlobWeather.GlobalWeatherSoapClient client = new GlobWeather.GlobalWeatherSoapClient();
             var cities = client.GetCitiesByCountry("Uzbekistan");
             Console.ReadLine();
+            //fuck github
         }
     }
 }
