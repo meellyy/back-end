@@ -47,7 +47,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service References\GlobWeather\Reference.cs">
+    <Compile Include="Service References\GLobWeather\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -55,22 +55,22 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Service References\GlobWeather\globalweather.wsdl" />
+    <None Include="Service References\GLobWeather\globalweather.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Service References\GlobWeather\" />
+    <WCFMetadataStorage Include="Service References\GLobWeather\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\GlobWeather\configuration91.svcinfo" />
+    <None Include="Service References\GLobWeather\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\GlobWeather\configuration.svcinfo" />
+    <None Include="Service References\GLobWeather\configuration.svcinfo" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\GlobWeather\Reference.svcmap">
+    <None Include="Service References\GLobWeather\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
