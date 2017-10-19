@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="85633556-e911-4c74-aa2a-83006f54d077" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e5f3389b-2807-4ee6-8255-e5b2ac7172d8" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,10 +19,13 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://www.webservicex.com/globalweather.asmx?WSDL" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:4567/GettingStarted/?wsdl" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="globalweather.wsdl" MetadataType="Wsdl" ID="90eac4f2-c521-4ce8-8754-1d4814a5a25b" SourceId="1" SourceUrl="http://www.webservicex.com/globalweather.asmx?WSDL" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="bf19194e-19a0-4545-a3a8-e9e826e3c902" SourceId="1" SourceUrl="http://localhost:4567/GettingStarted/?xsd=xsd1" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="960c3054-ecea-4009-8f45-0ba959477083" SourceId="1" SourceUrl="http://localhost:4567/GettingStarted/?xsd=xsd0" />
+    <MetadataFile FileName="DataRetriever.wsdl" MetadataType="Wsdl" ID="02bc3d20-8e1f-4b8d-b4d6-2070f4ed649b" SourceId="1" SourceUrl="http://localhost:4567/GettingStarted/?wsdl" />
+    <MetadataFile FileName="item.wsdl" MetadataType="Wsdl" ID="3b3c0881-80a2-43d1-b539-84b44c640000" SourceId="1" SourceUrl="http://localhost:4567/GettingStarted/?wsdl=wsdl0" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

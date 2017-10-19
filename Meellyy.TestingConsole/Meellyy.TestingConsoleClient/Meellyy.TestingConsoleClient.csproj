@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FAE19FF4-462D-4122-99E8-862062736830}</ProjectGuid>
+    <ProjectGuid>{6AB543F4-3750-419F-9600-29C54709D26D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Meellyy.TestingConsole</RootNamespace>
-    <AssemblyName>Meellyy.TestingConsole</AssemblyName>
+    <RootNamespace>Meellyy.TestingConsoleClient</RootNamespace>
+    <AssemblyName>Meellyy.TestingConsoleClient</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -47,18 +47,40 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\RetrieveData\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Service References\RetrieveData\DataRetriever.wsdl" />
+    <None Include="Service References\RetrieveData\item.wsdl" />
+    <None Include="Service References\RetrieveData\item.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\RetrieveData\item1.xsd">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WcfServiceLibrary\WcfServiceLibrary.csproj">
-      <Project>{003a5d5a-01ff-4eff-ac91-0d55adf7ac56}</Project>
-      <Name>WcfServiceLibrary</Name>
-    </ProjectReference>
+    <WCFMetadataStorage Include="Service References\RetrieveData\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\RetrieveData\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\RetrieveData\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\RetrieveData\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
