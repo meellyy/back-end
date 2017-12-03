@@ -1,0 +1,19 @@
+2017-10-21T12:39:44.354+0500 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-10-21T12:39:44.356+0500 I CONTROL  [initandlisten] MongoDB starting : pid=11988 port=27017 dbpath=C:\GitProjects\Meellyy\Meellyy.TestingConsole\data\db 64-bit host=skhojiakhmedov-vm
+2017-10-21T12:39:44.356+0500 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-10-21T12:39:44.356+0500 I CONTROL  [initandlisten] db version v3.4.9
+2017-10-21T12:39:44.356+0500 I CONTROL  [initandlisten] git version: 876ebee8c7dd0e2d992f36a848ff4dc50ee6603e
+2017-10-21T12:39:44.356+0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-10-21T12:39:44.356+0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-10-21T12:39:44.357+0500 I CONTROL  [initandlisten] modules: none
+2017-10-21T12:39:44.357+0500 I CONTROL  [initandlisten] build environment:
+2017-10-21T12:39:44.357+0500 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-10-21T12:39:44.357+0500 I CONTROL  [initandlisten]     distarch: x86_64
+2017-10-21T12:39:44.357+0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-10-21T12:39:44.357+0500 I CONTROL  [initandlisten] options: { config: "C:\Program Files\MongoDB\Server\3.4\mongod.cfg", service: true, storage: { dbPath: "C:\GitProjects\Meellyy\Meellyy.TestingConsole\data\db" }, systemLog: { destination: "file", path: "C:\GitProjects\Meellyy\Meellyy.TestingConsole\data\log\mongod.log" } }
+2017-10-21T12:39:44.358+0500 E NETWORK  [initandlisten] listen(): bind() failed Only one usage of each socket address (protocol/network address/port) is normally permitted. for socket: 0.0.0.0:27017
+2017-10-21T12:39:44.358+0500 E NETWORK  [initandlisten] Failed to set up sockets during startup.
+2017-10-21T12:39:44.358+0500 E STORAGE  [initandlisten] Failed to set up listener: InternalError: Failed to set up sockets
+2017-10-21T12:39:44.359+0500 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2017-10-21T12:39:44.359+0500 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2017-10-21T12:39:44.359+0500 I CONTROL  [serviceStopWorker] now exiting
